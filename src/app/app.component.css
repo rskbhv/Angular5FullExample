@@ -1,0 +1,35 @@
+#leftbody{
+    width: 65%;
+    margin: 10px;
+    float:left;
+}
+
+#rightbody{
+   width: 32%;
+   margin: 10px;
+   float:left;
+}
+.blackscreen{
+    z-index: 2;
+    background-color: black;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+    position: fixed ;
+    top: 0px;
+    left: 0px;
+
+}
+.offer{
+    z-index: 3;
+    background-color: rgb(69, 243, 69);
+    color: rgb(240, 24, 24, 0.842);
+    font-size: 35px;
+    font-family:  Arial;
+    width: 600px;
+    height: 300px;
+    position: fixed;
+    top: 200px;
+    left:30%;
+    padding: 30px;
+}
